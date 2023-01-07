@@ -242,7 +242,7 @@ public class VaultFinder extends JPanel {
         }
     }
 
-    // EFFECTS: saves selected file locally under selected destination directory
+    // EFFECTS: decrypts and saves selected file locally under selected destination directory
     protected void saveFile() {
         // find the first vault entry that matches with the name of the selected file
         Optional<VaultEntry> vaultFile = currDir.getEntries().stream().filter(
