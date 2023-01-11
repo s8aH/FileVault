@@ -14,7 +14,6 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.spec.InvalidKeySpecException;
 import java.util.Base64;
-
 import static java.nio.charset.StandardCharsets.UTF_8;
 
 public class CryptoUtils implements Jsonable {
@@ -22,7 +21,7 @@ public class CryptoUtils implements Jsonable {
     protected static final String ALGORITHM = "PBKDF2WithHmacSHA256";
     private static final int SALT_LENGTH = 16;
     private static final int IV_LENGTH = 12;
-    protected static final int ITERATION_COUNT = 65536;
+    protected static final int ITERATION_COUNT = 100000; //65536
     protected static final int KEY_SIZE = 256;
     private int T_LEN = 128;
 

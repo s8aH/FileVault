@@ -5,10 +5,8 @@ import main.filesystem.VaultDirectory;
 import main.filesystem.VaultEntry;
 import main.filesystem.VaultFile;
 import main.exceptions.CryptoException;
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
-import javax.swing.filechooser.FileSystemView;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -30,7 +28,7 @@ public class VaultFinder extends JPanel {
     private DefaultListModel model;
     private JList list;
     final String[] colHeads = {"Icon", "File Name", "Size (in Bytes)", "ID"};
-    private JLabel fileName, type, size, id;
+    private JLabel fileName, size, id;
 
     // EFFECTS: adds all components to panel
     public VaultFinder() {
