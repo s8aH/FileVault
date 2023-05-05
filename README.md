@@ -2,7 +2,7 @@
 
 ## Description
 
-This application is designed to compensate for the limitations of the current version of Mac's FileVault, which can be time-consuming to set up and can slow down the computer due to its encryption process. The application is a faster and more efficient encryption process using advanced algorithms while minimizing any negative impact on computer performance. 
+This application is designed to compensate for the limitations of the current version of Mac's FileVault, which can be time-consuming to set up and can slow down the computer as it encrypts an entire hard drive. The application is a faster and more efficient encryption process using advanced algorithms while minimizing any negative impact on computer performance. 
 
 The application utilizes the powerful AES-256 encryption algorithm to create a secure vault in which files and directories containing sensitive data can be stored.
 
